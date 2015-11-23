@@ -31,4 +31,4 @@ A sample project for sbi developer candidates with some basic REST functionality
 * package.json - package info for tutorial project
 
 ## Issues
-* please don't hesitate to email <darryl@sbiteam.com> with any questions or issues you may have
+* please don't hesitate to email [darryl@sbiteam.com](mailto:darryl@sbiteam.com) with any questions or issues you may have
