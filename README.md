@@ -18,6 +18,7 @@ A sample project for sbi developer candidates with some basic REST functionality
 
 ### To Do
 * Make all tests pass consistently
+* Add more robust error handling for each route
 * add any new tests that can be helpful
 
 ## Contents
