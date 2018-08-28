@@ -23,6 +23,7 @@ A sample project for sbi developer candidates with some basic REST functionality
 - Make all tests pass consistently
 - Add more robust error handling for each route
 - add any new tests that can be helpful
+- add a modern front end to the api you just fixed. For example, use React, Vue, Angular or Ember to replace the jade server side templates. We do use React so using React will allow us to evaluate your code to the best of our ability, but use whatever Framework/Library you feel most comfortable in.
 
 ## Contents
 
