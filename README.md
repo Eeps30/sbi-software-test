@@ -47,11 +47,16 @@ A sample project for sbi developer candidates with some basic REST functionality
 
 - Clone repository to working directory
 - Create folder `data` in working directory
+- run `mongod --dbpath {working directory}/data` to stand up the mongodb database
 - run `npm install` in the working directory installs dependencies for the server
-- run `mongod --dbpath {working directory}/data` to start up the mongodb database
+- run `npm start` in the same directory to stand up the server
 - navigate into the client folder and run `npm install` to install client packages
 - from the client folder, run `npm start` to stand up the React front end
-- browse to http://localhost:3000 to see the simple interface
+- browse to http://localhost:3000 to see the React front end
+
+# Testing
+
+- Note that if the tests don't pass, the server needs to be dumped of all data
 - navigate to main project directory and run `npm test` to run tests
 
 # Libraries Used in Client
