@@ -38,3 +38,24 @@ A sample project for sbi developer candidates with some basic REST functionality
 ## Issues
 
 - please don't hesitate to email [darryl@sbiteam.com](mailto:darryl@sbiteam.com) with any questions or issues you may have
+
+<!-- SEPARATE NOTES -->
+
+### Evan Ippolito's Notes
+
+# Instructions for Starting up Project
+
+- Clone repository to working directory
+- Create folder `data` in working directory
+- run `npm install` in the working directory installs dependencies for the server
+- run `mongod --dbpath {working directory}/data` to start up the mongodb database
+- navigate into the client folder and run `npm install` to install client packages
+- from the client folder, run `npm start` to stand up the React front end
+- browse to http://localhost:3000 to see the simple interface
+- navigate to main project directory and run `npm test` to run tests
+
+# Libraries Used in Client
+
+- React-Bootstrap: React bootstrap provides a library for building out view components quickly.
+- Formik: Formik provides a library for field-level validation.
+- Yup: Yup provides the ability to create validation templates for forms.
