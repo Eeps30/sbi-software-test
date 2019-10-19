@@ -52,7 +52,9 @@ A sample project for sbi developer candidates with some basic REST functionality
 - run `npm start` in the same directory to stand up the server
 - navigate into the client folder and run `npm install` to install client packages
 - from the client folder, run `npm start` to stand up the React front end
-- browse to http://localhost:3000 to see the React front end
+- it is possible that the client will detect that port 3000 is being used and will use a different one,
+  most likely 3001
+- browse to http://localhost:3000 or http://localhost:3001 to see the React front end
 
 # Testing
 
